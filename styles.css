@@ -1,0 +1,55 @@
+:root {
+    --text-color: hsl(0, 0%, 5%);
+    --bg-color: hsl(0, 0%, 100%);
+    --bg-accent-color: hsl(0, 0%, 99%);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: hsl(228, 5%, 100%);
+        --bg-color: hsl(228, 10%, 6%);
+        --bg-accent-color: hsl(228, 10%, 5%);
+    }
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: var(--bg-color);
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#schedule {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.event-contents {
+    margin: 0.5em 0;
+    padding: 1em;
+    background-color: var(--bg-accent-color);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 15% 40% 37% 8%;
+    text-align: left;
+    color: var(--text-color);
+}
