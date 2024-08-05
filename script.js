@@ -114,7 +114,7 @@ function renderSchedule() {
             eventElement.classList.add("event");
             const dateSpan = document.createElement("span");
             const date = new Date(event.datetime);
-            dateSpan.textContent = date.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+            dateSpan.textContent = date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
             const eventSpan = document.createElement("span");
             eventSpan.textContent = `${event.mw == "Men's" ? "M | " : "W | "} ${event.event}`;
             const stageSpan = document.createElement("span");
