@@ -115,13 +115,17 @@ function renderSchedule() {
             const dateSpan = document.createElement("span");
             const date = new Date(event.datetime);
             dateSpan.textContent = date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+            const mwSpan = document.createElement("span");
+            mwSpan.classList.add(`${event.mw == "Men's" ? "men" : "women"}`);
+            mwSpan.textContent = `${event.mw == "Men's" ? "M" : "W"}`;
             const eventSpan = document.createElement("span");
-            eventSpan.textContent = `${event.mw == "Men's" ? "M | " : "W | "} ${event.event}`;
+            eventSpan.textContent = `${event.event}`;
             const stageSpan = document.createElement("span");
             stageSpan.textContent = event.stage;
             const eventContents = document.createElement("div");
             eventContents.classList.add("event-contents");
             eventContents.appendChild(dateSpan);
+            eventContents.appendChild(mwSpan);
             eventContents.appendChild(eventSpan);
             eventContents.appendChild(stageSpan);
 

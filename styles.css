@@ -1,14 +1,17 @@
 :root {
     --text-color: hsl(0, 0%, 5%);
     --bg-color: hsl(0, 0%, 100%);
-    --bg-accent-color: hsl(0, 0%, 99%);
+    --men: rgb(165, 38, 0);
+    --women: rgb(0, 127, 211);
+    font-size: 15px;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --text-color: hsl(228, 5%, 100%);
         --bg-color: hsl(228, 10%, 6%);
-        --bg-accent-color: hsl(228, 10%, 5%);
+        --men: rgb(133, 31, 0);
+        --women: rgb(0, 106, 177);
     }
 }
 
@@ -25,11 +28,17 @@ p {
 }
 
 h1 {
-    font-size: 1.7em;
+    font-size: 1.5rem;
+    font-weight: lighter;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 0.9rem;
 }
 
 #schedule {
@@ -40,16 +49,24 @@ h2 {
 .event {
     width: 100%;
     margin: 0 auto;
-    text-align: center;
 }
 
 .event-contents {
-    margin: 0.5em 0;
-    padding: 1em;
-    background-color: var(--bg-accent-color);
-    border-radius: 5px;
+    margin: 0.5rem 0;
     display: grid;
-    grid-template-columns: 15% 35% 42% 8%;
+    grid-template-columns: 10fr 5fr 25fr 30fr 5fr;
     text-align: left;
     color: var(--text-color);
+}
+
+.men, .women {
+    font-weight: bold;
+}
+
+.men {
+    color: var(--men);
+}
+
+.women {
+    color: var(--women);
 }
