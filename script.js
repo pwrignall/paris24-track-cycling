@@ -6,9 +6,9 @@ const schedule = {
             { "datetime": "2024-08-05T18:55+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "First Round" },
             { "datetime": "2024-08-05T19:09+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Qualifying" },
             { "datetime": "2024-08-05T19:46+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "Finals: placing 7-8" },
-            { "datetime": "2024-08-05T19:49+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "Finals: placing 5-6" },
-            { "datetime": "2024-08-05T19:53+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "Finals: for bronze", "medal": "bronze" },
-            { "datetime": "2024-08-05T19:58+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "Finals: for gold", "medal": "gold" }
+            { "datetime": "2024-08-05T19:50+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "Finals: placing 5-6" },
+            { "datetime": "2024-08-05T19:54+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "Finals: for bronze", "medal": "bronze" },
+            { "datetime": "2024-08-05T19:59+02:00", "mw": "Women's", "event": "Team Sprint", "stage": "Finals: for gold", "medal": "gold" }
         ],
     "Day 2: Tuesday 6 August":
         [
@@ -16,9 +16,9 @@ const schedule = {
             { "datetime": "2024-08-06T18:59+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "First Round" },
             { "datetime": "2024-08-06T19:14+02:00", "mw": "Men's", "event": "Team Pursuit", "stage": "First Round" },
             { "datetime": "2024-08-06T19:55+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Finals: placing 7-8" },
-            { "datetime": "2024-08-06T19:58+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Finals: placing 5-6" },
-            { "datetime": "2024-08-06T20:02+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Finals: for bronze", "medal": "bronze" },
-            { "datetime": "2024-08-06T20:07+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Finals: for gold", "medal": "gold" }
+            { "datetime": "2024-08-06T20:00+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Finals: placing 5-6" },
+            { "datetime": "2024-08-06T20:05+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Finals: for bronze", "medal": "bronze" },
+            { "datetime": "2024-08-06T20:10+02:00", "mw": "Men's", "event": "Team Sprint", "stage": "Finals: for gold", "medal": "gold" }
         ],
     "Day 3: Wednesday 7 August":
         [
@@ -30,11 +30,14 @@ const schedule = {
             { "datetime": "2024-08-07T15:30+02:00", "mw": "Men's", "event": "Sprint", "stage": "1/32-finals repechages" },
             { "datetime": "2024-08-07T17:30+02:00", "mw": "Men's", "event": "Sprint", "stage": "1/16-finals" },
             { "datetime": "2024-08-07T18:04+02:00", "mw": "Men's", "event": "Team Pursuit", "stage": "Finals: placing 7-8" },
-            { "datetime": "2024-08-07T18:10+02:00", "mw": "Men's", "event": "Team Pursuit", "stage": "Finals: placing 5-6" },
-            { "datetime": "2024-08-07T18:25+02:00", "mw": "Men's", "event": "Team Pursuit", "stage": "Finals: for bronze", "medal": "bronze" },
+            { "datetime": "2024-08-07T18:13+02:00", "mw": "Men's", "event": "Team Pursuit", "stage": "Finals: placing 5-6" },
+            { "datetime": "2024-08-07T18:23+02:00", "mw": "Men's", "event": "Team Pursuit", "stage": "Finals: for bronze", "medal": "bronze" },
             { "datetime": "2024-08-07T18:33+02:00", "mw": "Men's", "event": "Team Pursuit", "stage": "Finals: for gold", "medal": "gold" },
             { "datetime": "2024-08-07T18:42+02:00", "mw": "Men's", "event": "Sprint", "stage": "1/16-finals repechages" },
-            { "datetime": "2024-08-07T18:57+02:00", "mw": "Women's", "event": "Team Pursuit", "stage": "Finals: for gold", "medal": "gold" },
+            { "datetime": "2024-08-07T18:57+02:00", "mw": "Women's", "event": "Team Pursuit", "stage": "Finals: placing 7-8" },
+            { "datetime": "2024-08-07T19:07+02:00", "mw": "Women's", "event": "Team Pursuit", "stage": "Finals: placing 5-6" },
+            { "datetime": "2024-08-07T19:17+02:00", "mw": "Women's", "event": "Team Pursuit", "stage": "Finals: for bronze", "medal": "bronze" },
+            { "datetime": "2024-08-07T19:28+02:00", "mw": "Women's", "event": "Team Pursuit", "stage": "Finals: for gold", "medal": "gold" },
             { "datetime": "2024-08-07T19:38+02:00", "mw": "Men's", "event": "Sprint", "stage": "1/8-finals" },
             { "datetime": "2024-08-07T20:14+02:00", "mw": "Men's", "event": "Sprint", "stage": "1/8-finals repechages" }
         ],
@@ -50,8 +53,8 @@ const schedule = {
             { "datetime": "2024-08-08T19:01+02:00", "mw": "Women's", "event": "Keirin", "stage": "Final placings 7-12" },
             { "datetime": "2024-08-08T19:11+02:00", "mw": "Women's", "event": "Keirin", "stage": "Final for gold", "medal": "gold" },
             { "datetime": "2024-08-08T19:18+02:00", "mw": "Men's", "event": "Sprint", "stage": "Quarter-finals - decider" },
-            { "datetime": "2024-08-08T19:27+02:00", "mw": "Men's", "event": "Omnium", "stage": "Points (event 4 of 4)" },
-            { "datetime": "2024-08-08T20:04+02:00", "mw": "Men's", "event": "Sprint", "stage": "Finals placing 5-8" }
+            { "datetime": "2024-08-08T19:27+02:00", "mw": "Men's", "event": "Omnium", "stage": "Points (event 4 of 4)", "medal": "gold" },
+            { "datetime": "2024-08-08T20:04+02:00", "mw": "Men's", "event": "Sprint", "stage": "Finals: placing 5-8" }
         ],
     "Day 5: Friday 9 August":
         [
